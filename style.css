@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: Arial;
+}
+body{
+    background-color: black;
+    
+    
+}
+.calc{
+    width : 400px;
+    margin: 100px auto;
+}
+.display{
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    padding: 20px;
+
+}
+
+.keypad-table tr:first-child .key{
+    background-color:rgb(238, 15, 141);
+}
+.keypad-table tr:first-child .key:active{
+    background-color:rgb(255, 65, 201);
+}
+.keypad-table tr:last-child .key{
+    background-color:rgb(147, 0, 103);
+}
+.keypad-table tr:last-child .key:active{
+    background-color:rgb(193, 4, 174);
+}
+.key{
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    line-height: 90px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #5e0352;
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+    
+}
+.key:active{
+    background-color:rgb(180, 0, 168)
+}
+
+h1{
+    color: #ffffff;
+    background-color: #5e0352;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    margin-left: 40%;
+
+}
